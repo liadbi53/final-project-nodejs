@@ -1,0 +1,111 @@
+
+[
+    {
+      "name": "Action Figure",
+      "info": "A superhero action figure",
+      "category": "Figures",
+      "img_url": "https://example.com/action-figure.jpg",
+      "price": 25,
+      "date_created": "2025-01-28T00:00:00Z",
+      "user_id": "user123"
+    },
+    {
+      "name": "Puzzle Set",
+      "info": "1000-piece puzzle",
+      "category": "Puzzles",
+      "img_url": "https://example.com/puzzle.jpg",
+      "price": 15,
+      "date_created": "2025-01-28T00:00:00Z",
+      "user_id": "user456"
+    },
+    {
+      "name": "Toy Car",
+      "info": "A red racing toy car",
+      "category": "Vehicles",
+      "img_url": "https://example.com/toy-car.jpg",
+      "price": 10,
+      "date_created": "2025-01-28T00:00:00Z",
+      "user_id": "user789"
+    },
+    {
+      "name": "Building Blocks",
+      "info": "Colorful building blocks",
+      "category": "Blocks",
+      "img_url": "https://example.com/building-blocks.jpg",
+      "price": 20,
+      "date_created": "2025-01-28T00:00:00Z",
+      "user_id": "user123"
+    },
+    {
+      "name": "Doll",
+      "info": "A beautiful doll with accessories",
+      "category": "Dolls",
+      "img_url": "https://example.com/doll.jpg",
+      "price": 30,
+      "date_created": "2025-01-28T00:00:00Z",
+      "user_id": "user456"
+    },
+    {
+      "name": "Remote Control Helicopter",
+      "info": "A small RC helicopter",
+      "category": "Vehicles",
+      "img_url": "https://example.com/rc-helicopter.jpg",
+      "price": 50,
+      "date_created": "2025-01-28T00:00:00Z",
+      "user_id": "user789"
+    },
+    {
+      "name": "Jigsaw Puzzle",
+      "info": "500-piece jigsaw puzzle",
+      "category": "Puzzles",
+      "img_url": "https://example.com/jigsaw-puzzle.jpg",
+      "price": 12,
+      "date_created": "2025-01-28T00:00:00Z",
+      "user_id": "user123"
+    },
+    {
+      "name": "Lego Set",
+      "info": "A medium-sized Lego set",
+      "category": "Blocks",
+      "img_url": "https://example.com/lego-set.jpg",
+      "price": 40,
+      "date_created": "2025-01-28T00:00:00Z",
+      "user_id": "user456"
+    },
+    {
+      "name": "Toy Train",
+      "info": "A wooden toy train",
+      "category": "Vehicles",
+      "img_url": "https://example.com/toy-train.jpg",
+      "price": 35,
+      "date_created": "2025-01-28T00:00:00Z",
+      "user_id": "user789"
+    },
+    {
+      "name": "Teddy Bear",
+      "info": "A fluffy teddy bear",
+      "category": "Dolls",
+      "img_url": "https://example.com/teddy-bear.jpg",
+      "price": 25,
+      "date_created": "2025-01-28T00:00:00Z",
+      "user_id": "user123"
+    },
+    {
+      "name": "Rubik's Cube",
+      "info": "A 3x3 Rubik's cube",
+      "category": "Puzzles",
+      "img_url": "https://example.com/rubiks-cube.jpg",
+      "price": 8,
+      "date_created": "2025-01-28T00:00:00Z",
+      "user_id": "user456"
+    },
+    {
+      "name": "Crane Truck",
+      "info": "A toy crane truck",
+      "category": "Vehicles",
+      "img_url": "https://example.com/crane-truck.jpg",
+      "price": 45,
+      "date_created": "2025-01-28T00:00:00Z",
+      "user_id": "user789"
+    }
+  ]
