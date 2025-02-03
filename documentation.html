@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Documentation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background-color: #f4f4f4;
+        }
+        h1 {
+            text-align: center;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: white;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #333;
+            color: white;
+        }
+        .container {
+            max-width: 900px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>📌 API Documentation - Users & Toys</h1>
+
+        <h2>🔹 Users Routes</h2>
+        <table>
+            <tr>
+                <th>Method</th>
+                <th>Route</th>
+                <th>Description</th>
+            </tr>
+            <tr>
+                <td>POST</td>
+                <td>/users</td>
+                <td>Register a new user</td>
+            </tr>
+            <tr>
+                <td>POST</td>
+                <td>/users/login</td>
+                <td>User login and get token</td>
+            </tr>
+            <tr>
+                <td>GET</td>
+                <td>/users</td>
+                <td>Get all users (Admin only)</td>
+            </tr>
+            <tr>
+                <td>GET</td>
+                <td>/users/info</td>
+                <td>Get logged-in user info</td>
+            </tr>
+            <tr>
+                <td>PATCH</td>
+                <td>/users/role/:id/:role</td>
+                <td>Change user role (Admin only)</td>
+            </tr>
+        </table>
+
+        <h2>🔹 Toys Routes</h2>
+        <table>
+            <tr>
+                <th>Method</th>
+                <th>Route</th>
+                <th>Description</th>
+            </tr>
+            <tr>
+                <td>GET</td>
+                <td>/toys</td>
+                <td>Get all toys (with pagination `?skip=10`)</td>
+            </tr>
+            <tr>
+                <td>GET</td>
+                <td>/toys/single/:id</td>
+                <td>Get toy by ID</td>
+            </tr>
+            <tr>
+                <td>POST</td>
+                <td>/toys</td>
+                <td>Add a new toy (Authenticated users only)</td>
+            </tr>
+            <tr>
+                <td>PUT</td>
+                <td>/toys/:id</td>
+                <td>Update toy (Only creator can update)</td>
+            </tr>
+            <tr>
+                <td>DELETE</td>
+                <td>/toys/:id</td>
+                <td>Delete toy (Only creator can delete)</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
